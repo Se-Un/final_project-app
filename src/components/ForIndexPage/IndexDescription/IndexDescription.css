@@ -1,0 +1,271 @@
+.desc {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   text-transform: uppercase;
+}
+.desc__header {
+   margin-top: 55px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.desc__header-title {
+   width: 50%;
+   margin: 0;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 26px;
+   text-align: center;
+   
+}
+.desc__header-text {
+   width: 100%;
+   margin-top: 35px;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 26px;
+   text-align: center;
+}
+.desc__start {
+   height: 256px;
+   display: flex;
+   margin-top: 41px;
+}
+.desc__start-card {
+   width: 33.3%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #81B3D2;
+   color: #ffffff;
+}
+.desc__start-vector {
+   display: none;
+}
+.desc__start-title {
+   width: 50%;
+   margin: 0;
+   margin-top: 47px;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: bold;
+   text-align: center;
+
+}
+.desc__start-number {
+   width: 30%;
+   height: 5%;
+   margin: 0;
+   margin-top: 13px;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   text-align: center;
+}
+.desc__start-text {
+   width: 70%;
+   height: 2%;
+   margin: 0;
+   margin-top: 36px;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   text-align: center;
+}
+.desc__start-img {
+   width: 66.7%;
+   height: 256px;
+   background-image: url(../../../images/IndexPage/sity.svg);
+   background-size: cover;
+}
+.desc__cards {
+   width: 100%;
+   height: 330px;
+   display: flex;
+   justify-content: space-around;
+}
+.desc__middle {
+   height: 256px;
+   display: flex;
+   flex-direction: row-reverse;
+}
+.desc__middle-card {
+   width: 33.3%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #81B3D2;
+   color: #ffffff;
+}
+.desc__middle-title {
+   width: 50%;
+   margin: 0;
+   margin-top: 47px;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: bold;
+   text-align: center;
+
+}
+.desc__middle-number {
+   width: 30%;
+   height: 5%;
+   margin: 0;
+   margin-top: 13px;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   text-align: center;
+}
+.desc__middle-text {
+   width: 55%;
+   height: 2%;
+   margin: 0;
+   margin-top: 36px;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   text-align: center;
+}
+.desc__middle-img {
+   width: 66.7%;
+   height: 256px;
+   background-image: url(../../../images/IndexPage/bridge.svg);
+   background-size: cover;
+}
+.desc__end {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   background-color: #EEEEEE;
+}
+@media(max-width: 768px) {
+   .desc__header {
+      margin-top: 33px;
+   }
+   .desc__header-title {
+      width: 55%;
+      font-size: 17px;
+      
+   }
+   .desc__header-text {
+      width: 100%;
+      margin-top: 15px;
+      font-size: 12px;
+   }
+   .desc__start-title {
+      margin-top: 37px;
+      font-size: 18px; 
+   }
+   .desc__start-number {
+      margin-top: 13px;
+      font-size: 11px;
+   }
+   .desc__start-text {
+      margin-top: 26px;
+      font-size: 11px;
+   }
+   .desc__middle-title {
+      width: 53%;
+      margin-top: 37px;
+      font-size: 17px;
+   
+   }
+   .desc__middle-number {
+      font-size: 11px;
+   }
+   .desc__middle-text {
+      width: 65%;
+      margin-top: 26px;
+      font-size: 11px;
+   }
+}
+@media(max-width: 490px) {
+   .desc__header {
+      margin-top: 35px;
+   }
+   .desc__header-title {
+      width: 100%;
+      font-size: 13px;
+      
+   }
+   .desc__header-text {
+      width: 100%;
+      margin-top: 25px;
+      font-size: 12px;
+   }
+   .desc__start {
+      height: 200px;
+      margin-top: 31px;
+      display: block;
+
+   }
+   .desc__start-vector {
+      display: block;
+      width: 100%;
+   }
+   .desc__start-card {
+      width: 100%;
+   }
+   .desc__start-title {
+      width: 100%;
+      margin-top: 37px;
+      font-size: 16px;
+   
+   }
+   .desc__start-number {
+      margin-top: 9px;
+      font-size: 11px;
+   }
+   .desc__start-text {
+      width: 100%;
+      margin-top: 26px;
+      font-size: 11px;
+   }
+   .desc__start-img {
+      width: 100%;
+      background-image: url(../../../images/IndexPage/sity2.svg);
+   }
+   .desc__cards {
+      width: 100%;
+      height: 330px;
+      margin-top: 270px;
+      margin-bottom: 250px;
+      display: block;
+   }
+   .desc__middle {
+      height: 200px;
+      display: block;
+   }
+   .desc__middle-card {
+      width: 100%;
+   }
+   .desc__middle-title {
+      width: 100%;
+      margin-top: 37px;
+      font-size: 16px;
+   }
+   .desc__middle-number {
+      margin-top: 9px;
+      font-size: 11px;
+   }
+   .desc__middle-text {
+      width: 100%;
+      margin-top: 26px;
+      font-size: 11px;
+   }
+   .desc__middle-img {
+      width: 100%;
+   }
+   .desc__end {
+      width: 100%;
+      margin-top: 230px;
+      display: block;
+   }
+}
